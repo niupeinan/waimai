@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+} 
+body{
+    background:#EDECEC;
+} 
+.waimai16{
+    width: 100%;
+    height: autorem;
+    position:relative;
+}
+.header{
+    width:100%;
+    height: 3.59rem;
+    background:#17e2d6;
+    position: relative;
+}
+.header .top{
+	width:100% ;
+	height: 0.4rem;
+	display: flex;
+	align-items: center;
+	background: #1ce8d6;
+}
+.header .top img{
+	width: 7.04rem;
+	height: 0.23rem;
+	margin: 0 auto;
+}
+.header .bottom{
+    width: 6.69rem;
+    height: 0.9rem;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+.header .bottom span{
+    display:flex;
+    float: left;
+    margin-left: 0.5rem;
+    font-size: 0.37rem;
+    color:#fff;
+    line-height: 0.9rem;
+}
+.header .tishi{
+    width: 3.81rem;
+    height: 0.75rem;
+    background:#096661;
+    border-radius:0.75rem;
+    position: absolute;
+    bottom:1.22rem;
+    left: 1.69rem;
+    display: flex;
+    align-items: center;
+}
+.header .tishi .left{
+    width: 0.31rem;
+    height: 0.37rem;
+    margin-left: 0.5rem;
+    margin-right:0.3rem;
+    background-image: url(../img/外卖16/提示-\(1\).png);
+    background-size: contain;
+}
+.header .tishi .right{
+    width:3rem;
+    height: 0.37rem;
+    font-size: 0.23rem;
+    color:#fff;
+    line-height:0.37rem;
+}
+.header .info{
+    width:7.04rem;
+    height:2.7rem;
+    position:absolute;
+    left: 0.23rem;
+    bottom:-1.69rem;
+}
+.header .info .top{
+    width: 100%;
+    height: 1.71rem;
+    background: #fff;
+    border-bottom:0.01rem solid #ccc;
+    position: relative;
+}
+.header .info .top span{
+    display: block;
+    font-size: 0.37rem;
+    position:absolute;
+    top: 0.47rem;
+    left: 2.75rem;
+    font-size:700;
+}
+.header .info .top p{
+    font-size: 0.2rem;
+    position:absolute;
+    top: 1.17rem;
+    left: 1.89rem;
+}
+.header .info .top i{
+    position:absolute;
+    top: 0.67rem;
+    right:0.27rem;
+}
+.header .info .bottom{
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    border-bottom:0.06rem solid #ccc;
+    position: relative;
+}
+.header .info .bottom span{
+    display: block;
+    font-size: 0.35rem;
+    position:absolute;
+    line-height: 1rem;
+    text-indent: 2em;
+    float: left;
+    color:#000;
+}
+.header .info .bottom i{
+    position:absolute;
+    top: 0.35rem;
+    right:0.27rem;
+}
+.middle{
+    width: 7.04rem;
+    height: 4.47rem;
+    margin:1.91rem auto;
+    border-top: 0.06rem solid #ccc;
+    border-bottom: 0.06rem solid #ccc;
+}
+.middle .first{
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    background: #fff;
+}
+.middle .first .left{
+    width: 0.53rem;
+    height: 0.53rem;
+    margin:0.18rem 0.53rem;
+    background-image: url(../img/timg.png);
+    background-size: contain;
+}
+.middle .first span{
+    font-size: 0.25rem;
+    line-height: 0.53rem;
+    display: block;
+    margin-top: 0.18rem;
+}
+.middle .second{
+    width:100%;
+    height: 1.39rem;
+    display: flex;
+    background: #E6F6F5;
+}
+.middle .second .left{
+    width: 1.18rem;
+    height: 1.18rem;
+    margin:0.11rem 0.53rem;
+    background-image: url(../img/6.png);
+    background-size: contain;
+}
+.middle .second .box{
+    width: 1.5rem;
+    height: 1.18rem;
+    margin-top: 0.15rem;
+}
+.middle .second .box .con{
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    line-height: 0.59rem;
+    font-size: 0.34rem;
+}
+.middle .second .box .con1{
+    font-size: 0.2rem;  
+}
+.middle .second span{
+    display: block;
+    float: right;
+    font-size: 0.3rem;
+    margin-top: 0.25rem;
+    margin-left:2.4rem;
+}
+.middle .third{
+    width: 100%;
+    height: 0.98rem;
+    background:#fff;
+    border-bottom:0.04rem dashed #ccc;
+}
+.middle .third .con{
+    width: 100%;
+    height: 0.47rem;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.middle .third .con span{
+    display: block;
+    width: 0.74rem;
+    height: 0.47rem;
+    font-size: 0.24rem;
+    line-height: 0.49rem;
+    text-align: left;
+}
+/* .middle .third img{
+    width: 100%;
+    height: 0.04rem;
+} */
+.middle .finally{
+    width: 100%;
+    height: 1.15rem;
+    background:#fff;
+}
+.middle .finally .con{
+    width: 100%;
+    height:50%;
+    padding-left:0.2rem;
+    padding-right:0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.middle .finally .con span{
+    display: block;
+    width: 1.4rem;
+    height: 0.47rem;
+    font-size: 0.24rem;
+    line-height: 0.49rem;
+    text-align: left;
+}
+.middle .finally .con .box{
+    display: flex;
+}
+.middle .finally .con .box i{
+    line-height:0.48rem;
+    color:#B7B7B7; 
+}
+.zhifu{
+    width: 7.04rem;
+    height: 2.01rem;
+    margin:-1.75rem auto;
+    border-bottom:0.06rem solid #ccc;
+    border-top:0.06rem solid #ccc;
+    background:#fff;
+}
+.zhifu .con{
+    width: 100%;
+    height:1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+    border-bottom:0.01rem solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.zhifu .con span{
+    font-size: 0.24rem;
+    line-height: 1rem;
+}
+.zhifu .con1{
+    width: 100%;
+    height:1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+    border-bottom:0.01rem solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.zhifu .con1 .box{
+    display: flex;
+}
+.zhifu .con1 .box i{
+    line-height: 1rem;
+    color:#ccc;
+}
+.footer{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    margin-top: 1.9rem;
+}
+.footer .left{
+    width: 5.12rem;
+    height: 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.footer .left span{
+    font-size: 0.35rem;
+    line-height: 1rem;
+    font-weight: 600;
+}
+.footer .right{
+    width: 2.38rem;
+    height: 1rem;
+    background: #17e2d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #fff;
+}

@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+.waimai11{
+	width: 100%;
+	height: auto;
+}
+.header{
+	width: 100%;
+	height: 1.3rem;
+	background: #17e2d6;
+}
+.header .top{
+	width:100% ;
+	height: 0.4rem;
+	display: flex;
+	align-items: center;
+	background: #1ce8d6;
+}
+.header .top img{
+	width: 7.04rem;
+	height: 0.23rem;
+	margin: 0 auto;
+}
+.header .bottom{
+    width: 100%;
+    height: 0.9rem;
+    text-align:center;
+    line-height: 0.9rem;
+}
+.header .bottom span{
+    display: block;
+    margin:0 auto;
+    font-size:0.34rem;
+    color:#fff;
+}
+.dingdan{
+    width: 100%;
+    height: 4.5rem;
+}
+.dingdan .top{
+    width: 7.04rem;
+    height:1.05rem;
+    margin:0 auto;
+    border-bottom:0.01rem solid #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dingdan .top span{
+    font-size: 0.26rem;
+    color:#000;
+    text-indent: 1em;
+    font-weight: bold;
+}
+.dingdan .top .right{
+    width: 1.6rem;
+    height: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.dingdan .top .right span{
+    display: block;
+    width: 1.2rem;
+    height: 0.23rem;
+    font-size: 0.2rem;
+    font-weight: normal;
+    text-indent: 1em;
+    
+}
+.dingdan .bottom{
+    width: 7.04rem;
+    height:3.43rem;
+    margin:0 auto;
+    border-bottom:0.01rem solid #e3e3e3;
+}
+.dingdan .bottom .box{
+    width: 100%;
+    height: 1.52rem;
+    display: flex;
+    justify-content: space-between;
+}
+.dingdan .bottom .box .left{
+    width: 3.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dingdan .bottom .box .left .zuo{
+    width: 1.21rem;
+    height: 0.81rem;
+    margin-left:0.16rem;
+    margin-top:0.43rem;
+    background-image: url(../img/6.png);
+    background-size:contain;
+}
+.dingdan .bottom .box .left .you{
+    width: 3rem;
+    height: 0.81rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.dingdan .bottom .box .left .you h1{
+    width:100%;
+    height:0.3rem;
+    margin-top:0.43rem;
+    margin-bottom:0.3rem;
+    font-size: 0.28rem;
+    text-indent: 1em;
+    line-height: 0.3rem;
+}
+.dingdan .bottom .box .left .you h2{
+    width:100%;
+    height:0.3rem;
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    text-indent: 1em;
+    color:#e3e3e3;
+    font-weight: lighter;
+}
+.dingdan .bottom .box .right{
+    width: 1.5rem;
+    height: 100%;
+}
+.dingdan .bottom .box .right h1{
+    width:100%;
+    height:0.3rem;
+    margin-top:0.43rem;
+    margin-bottom:0.3rem;
+    font-size: 0.24rem;
+    text-indent: 1em;
+    line-height: 0.3rem;
+}
+.dingdan .bottom .box .right h2{
+    width:100%;
+    height:0.3rem;
+    font-size: 0.23rem;
+    line-height: 0.3rem;
+    text-indent: 1em;
+    color:#e3e3e3;
+    font-weight: lighter;
+}
+.dingdan .bottom .box1{
+    width: 100%;
+    height: 1.1rem;
+    display:flex;
+    justify-content: space-between;
+}
+.dingdan .bottom .box1 h1{
+    width:100%;
+    height:0.3rem;
+    margin-top:0.43rem;
+    margin-left:1.1rem;
+    font-size: 0.24rem;
+    text-indent: 1em;
+    line-height: 0.3rem;
+}
+.dingdan .bottom .box1 h2{
+    height:0.3rem;
+    font-size: 0.23rem;
+    margin-top:0.43rem;
+    line-height: 0.3rem;
+    margin-right: 0.1rem;
+    color:#e3e3e3;
+    font-weight: lighter;
+}
+.dingdan .bottom .box2{
+    width: 100%;
+    height: 0.81rem;
+    padding-right: 0.1rem;
+}
+.dingdan .bottom .box2 .son{
+    width: 1.55rem;
+    height: 0.43rem;
+    border-radius:0.5rem;
+    background:#ffbc7b;
+    float:right;
+    margin-left:0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dingdan .bottom .box2 .son span{
+    font-size: 0.2rem;
+    color:#fff;
+}
+.smallbox{
+    width: 100%;
+    height:0.43rem;
+    border-bottom:0.14rem solid #e3e3e3;
+    box-sizing:border-box;
+}
+.cainixihuan{
+	width: 100%;
+	height: 12.93rem;
+	border-bottom: 0.07rem solid #faf9f8;
+}
+.cainixihuan .con{
+	width: 7.04rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.cainixihuan .con .top{
+	width: 100%;
+	height: 0.91rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: 0.01rem solid #cccccc;
+}
+.cainixihuan .con .top span{
+	display: block;
+	width: 2.33rem;
+	height: 0.31rem;
+	text-indent: 0.1rem;
+	font-size: 0.2rem;
+	color: #000;
+}
+.cainixihuan .con .bottom{
+	width: 100%;
+	height: 11.94rem;
+}
+.cainixihuan .con .bottom .son{
+	width: 100%;
+	height: 1.98rem;
+	border-bottom: 0.01rem solid #ccc;
+	display: flex;
+	align-items: center;
+}
+.cainixihuan .con .bottom .son:nth-child(6){
+	border-bottom: 0rem;
+}
+.cainixihuan .con .bottom .son .left{
+	width: 2.22rem;
+	height: 1.52rem;
+	margin-left: 0.14rem;
+}
+.cainixihuan .con .bottom .son .left img{
+	width: 2.22rem;
+	height: 1.53rem;
+}
+.cainixihuan .con .bottom .son .right{
+	width: 5.23rem;
+	height: 1.52rem;
+	margin-left: 0.25rem;
+}
+.cainixihuan .con .bottom .son .right h1{
+	width: 4.66rem;
+	height: 0.38rem;
+	font-size: 0.35rem;
+	line-height: 0.38rem;
+}
+.cainixihuan .con .bottom .son .right h2{
+	width: 4.66rem;
+	height: 0.38rem;
+	font-size: 0.15rem;
+	line-height: 0.38rem;
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+}
+.cainixihuan .con .bottom .son .right h2 .box{
+	width: 1.45rem;
+	height: 0.21rem;
+	margin-left: 0.27rem;
+	display: flex;
+	justify-content: space-between;
+}
+.cainixihuan .con .bottom .son .right h2 .box img{
+	width: 0.21rem;
+	height: 0.21rem;
+}
+.footer{
+	width: 100%;
+	height: 1rem;
+}
+.footer .son{
+	width: 7.04rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer .son img{
+	width: 7.04rem;
+	height: 100%;
+}

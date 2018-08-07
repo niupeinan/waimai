@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}  
+.waimai18{
+    width: 100%;
+    height: 13.57rem;
+    position:relative;
+}
+.header{
+    width:100%;
+    height: 3.04rem;
+    background:#17e2d6;
+    position: relative;
+}
+.header .top{
+	width:100% ;
+	height: 0.4rem;
+	display: flex;
+	align-items: center;
+	background: #1ce8d6;
+}
+.header .top img{
+	width: 7.04rem;
+	height: 0.23rem;
+	margin: 0 auto;
+}
+.header .bottom{
+    width: 6.69rem;
+    height: 0.9rem;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+.header span{
+    display: block;
+    width: 3rem;
+    height: 0.59rem;
+    font-size:0.33rem;
+    line-height: 0.59rem;
+    color:#fff;
+    text-indent: 1.2em; 
+}
+.header .pay{
+    width:7.04rem;
+    height:1.4rem;
+    margin:0 auto;
+    background-image: url(../img/外卖13/矩形-2.png);
+    background-size: 7.04rem 1.4rem;
+    position: absolute;
+    left:0.23rem;
+    top:2.3rem;
+}
+.header .pay img{
+    width: 0.42rem;
+    height: 0.46rem;
+    margin-top:0.56rem;
+    margin-left:0.52rem;
+    float:left;
+}
+.header .pay span{
+    display: block;
+    font-size: 0.3rem;
+    color:#000;
+    line-height:1.4rem;
+    float:left;
+    margin-left: 0.56rem;
+    margin-right: 0.65rem;
+}
+.header .pay p{
+    display: block;
+    font-size: 0.3rem;
+    color:red;
+    line-height:1.4rem;
+    float:left;
+}
+.photo{
+    width: 7.04rem;
+    height: 4.86rem;
+    margin:0 auto;
+    display: flex;
+    padding-top: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.photo img{
+    width: 5.88rem;
+    height: 3.64rem;
+}
+.photo .box{
+    position: absolute;
+    left:1.8rem;
+    bottom:0.9rem;
+    width: 3.69rem;
+    height: 0.3rem;
+    margin:0 auto;
+    display: flex;
+}
+.photo .box .yuan{
+    width: 0.11rem;
+    height: 0.11rem;
+    border-radius: 50%;
+    margin-right: 0.07rem;
+    background:#cecaca;
+    margin-top: 0.1rem;
+}
+.photo .box .yuan:nth-of-type(2){
+    background:#88956f;
+}
+.photo .box .yuan:nth-of-type(3){
+    background:#03ac3e;
+}
+.photo .box span{
+    display: block;
+    width: 2.8rem;
+    height: 100%;
+    text-align: center;
+    font-size: 0.23rem;
+}
+.photo .box .yuan1{
+    width: 0.11rem;
+    height: 0.11rem;
+    border-radius: 50%;
+    margin-left: 0.07rem;
+    background:#cecaca;
+    margin-top: 0.1rem;
+}
+.photo .box .yuan1:nth-child(6){
+    background:#88956f;
+}
+.photo .box .yuan1:last-child{
+    background:#03ac3e;
+}
+.zhifu{
+    width: 100%;
+    height: 6.8rem;
+    background:rgba(246,246,241,0);
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.zhifu img{
+    width: 100%;
+    height:5.2rem;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    opacity: 0.8;
+}
+.zhifu .box{
+    width: 1.22rem;
+    height: 1.22rem;
+    position: absolute;
+    bottom:2.69rem;
+    left:3.04rem;
+    background-image: url(../img/外卖18/指纹扫描.png);
+    background-size: contain;
+}
+.zhifu span{
+    display: block;
+    font-size:0.23rem;
+    color: #DEF7F1;
+    position: absolute;
+    left: 2.7rem;
+    bottom:1.74rem;
+}

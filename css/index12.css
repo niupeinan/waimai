@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}   
+.waimai12{
+    width: 100%;
+	height: auto;
+}
+.header{
+	width: 100%;
+	height: 2.78rem;
+    background-image: url(../img/外卖12/矩形-7.png);
+    background-size:contain;
+    position:relative;
+}
+.header .top{
+	width:100% ;
+	height: 0.4rem;
+	display: flex;
+	align-items: center;
+	background: #1ce8d6;
+}
+.header .top img{
+	width: 7.04rem;
+	height: 0.23rem;
+	margin: 0 auto;
+}
+.header .bottom{
+    width: 6.69rem;
+    height: 0.9rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .bottom img{
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.header .box{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius:50%;
+    background-image: url(../img/外卖12/hdImg_603da8043e849eca13e59f469c09829d15140880542.png);
+    background-size: contain;
+    position:absolute;
+    top: 1.58rem;
+    left: 3rem;
+}
+.box{
+    width:7.04rem;
+    height: 2.32rem;
+    margin:0 auto;
+    border-bottom:0.01rem solid #e2e2e2;
+}
+.middle{
+    width: 4.76rem;
+    height:2.32rem;
+    margin:0 auto;
+    margin-top:0.3rem;
+    
+}
+.middle span{
+    display: block;
+    width: 2rem;
+    height: 0.4rem;
+    margin-top:0.5rem;
+    margin:0 auto;
+    font-size:0.36rem;
+    text-align: center;
+    line-height:0.6rem;
+    font-weight: bold;
+}
+.middle .bottom{
+    width: 100%;
+    height: 1.18rem;
+    margin-top:0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.middle .bottom .con{
+    width:0.75rem;
+    height: 1.18rem;
+}
+.middle .bottom .con .son1{
+    width:0.57rem;
+    height: 0.52rem;
+    margin:0 auto;
+}
+.middle .bottom .con span{
+    display: block;
+    width: 0.57rem;
+    height: 0.28rem;
+    font-size: 0.2rem;
+    color:#111111;
+    margin-top:0.1rem;
+    text-align: center;
+}
+.middle .bottom .con .son2{
+    width:0.41rem;
+    height: 0.52rem;
+    margin:0 auto;
+}
+.middle .bottom .con .son3{
+    width:0.53rem;
+    height: 0.52rem;
+    margin:0 auto;
+}
+.money{
+    width: 7.04rem;
+    height:4.2rem;
+    margin:0 auto;
+}
+.money .title{
+    width: 0.83rem;
+    height: 0.36rem;
+    font-size: 0.36rem;
+    margin-left: 0.1rem;
+    font-weight: bold;
+}
+.money .con{
+    width:6.04rem;
+    height:3.19rem;
+    margin:0 auto;
+    margin-top: 0.36rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.money .con .son{
+    width:1.51rem;
+    height: 1.18rem;
+}
+.money .con .son span{
+    display: block;
+    width: 1.2rem;
+    height: 0.28rem;
+    margin:0 auto;
+    font-size: 0.2rem;
+    color:#111111;
+    margin-top:0.1rem;
+    text-align: center;
+}
+.money .con .son .grandson{
+    width:0.80rem;
+    height: 0.80rem;
+    margin:0 auto;
+    border:0.01rem solid #e2e2e2;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.money .con .son .grandson .son4{
+    width: 0.49rem;
+    height: 0.44rem;
+}
+.money .con .son .grandson .son5{
+    width: 0.40rem;
+    height: 0.46rem;
+}
+.money .con .son .grandson .son6{
+    width: 0.55rem;
+    height: 0.44rem;
+}
+.money .con .son .grandson .son7{
+    width: 0.42rem;
+    height: 0.45rem;
+}
+.money .con .son .grandson .son8{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.waiter{
+    width: 7.04rem;
+    height:2.78rem;
+    margin:0 auto;
+}
+.waiter .title{
+    width: 0.83rem;
+    height: 0.36rem;
+    font-size: 0.36rem;
+    margin-left: 0.1rem;
+    font-weight: bold;
+}
+.waiter .con{
+    width:6.04rem;
+    height:3.19rem;
+    margin:0 auto;
+    margin-top: 0.36rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.waiter .con .son{
+    width:1.51rem;
+    height: 1.18rem;
+}
+.waiter .con .son span{
+    display: block;
+    width: 1.2rem;
+    height: 0.28rem;
+    margin:0 auto;
+    font-size: 0.2rem;
+    color:#111111;
+    margin-top:0.1rem;
+    text-align: center;
+}
+.waiter .con .son .grandson{
+    width:0.80rem;
+    height: 0.80rem;
+    margin:0 auto;
+    border:0.01rem solid #e2e2e2;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.waiter .con .son .grandson .son4{
+    width: 0.49rem;
+    height: 0.44rem;
+}
+.waiter .con .son .grandson .son5{
+    width: 0.40rem;
+    height: 0.46rem;
+}
+.waiter .con .son .grandson .son6{
+    width: 0.55rem;
+    height: 0.44rem;
+}
+.waiter .con .son .grandson .son7{
+    width: 0.42rem;
+    height: 0.45rem;
+}
+.footer{
+	width: 100%;
+	height: 1rem;
+}
+.footer .son{
+	width: 7.04rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer .son img{
+	width: 7.04rem;
+	height: 100%;
+}

@@ -1,0 +1,358 @@
+/*
+* @Author: 牛培楠
+* @Date:   2018-07-28 17:28:23
+* @Last Modified by:   牛培楠
+* @Last Modified time: 2018-07-28 23:55:58
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+.waimai1{
+	width: 100%;
+	height: 26.61rem;
+	background: #fff;
+}
+.header{
+	width: 100%;
+	height:1.3rem;
+	background: #1df4e2; 
+}
+.header .top{
+	width:100% ;
+	height: 0.4rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	background: #1ce8d6;
+}
+.header .top img{
+	width: 7.04rem;
+	height: 0.23rem;
+	margin: 0 auto;
+}
+.header .bottom{
+	width: 7.04rem;
+	height: 0.9rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header .bottom .son{
+	width: 0.98rem;
+	height: 100%;
+}
+.header .bottom .son .grandson1{
+	width: 0.98rem;
+	height: 0.45rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header .bottom .son .grandson1 img{
+	width: 0.52rem;
+	height: 0.37rem;
+}
+.header .bottom .son .grandson2{
+	width: 0.98rem;
+	height: 0.45rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header .bottom .son .grandson2 img{
+	width: 0.48rem;
+	height: 0.29rem;
+}
+.header .bottom .son .grandson3{
+	width: 0.98rem;
+	height: 0.45rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header .bottom .son .grandson3 img{
+	width: 0.25rem;
+	height: 0.32rem;
+}
+.header .bottom .son .grandson4{
+	width: 0.98rem;
+	height: 0.45rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header .bottom .son .grandson4 img{
+	width: 0.95rem;
+	height: 0.24rem;
+}
+.header .bottom .son.son1{
+	width: 4.49rem;
+	height: 0.52rem;
+	margin-top: 0.19rem;
+	position: relative;
+}
+.header .bottom .son.son1 img{
+	width: 4.49rem;
+	height: 0.52rem;
+}
+.header .bottom .son.son1 .search{
+	width:0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 0.11rem;
+	left: 0.22rem;
+}
+.header .bottom .son.son1 .search img{
+	width:0.3rem;
+	height: 0.3rem;
+}
+.header .bottom .son.son1 span{
+	position: absolute;
+	top: 0.06rem;
+	left: 1.24rem;
+	font-size: 0.3rem;
+	color: #c2c2c2;
+}
+.photo{
+	width: 100%;
+	height: 3.57rem;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.photo img{
+	width: 7.5rem;
+	height: 3.57rem;
+	margin: 0 auto;
+}
+.photo .btn{
+	width: 0.92rem;
+	height: 0.08rem;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	left: 0;
+	right: 0;
+	margin: -0.2rem auto; 
+}
+.photo .btn .son{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: #ffffff;
+}
+.photo .btn .son:first-child{
+	background: #22eade;
+}
+.feilei{
+	width: 100%;
+	height: 1.89rem;
+}
+.feilei .con{
+	width: 7.04rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	border-bottom: 0.01rem solid #bdbdbd;
+}
+.feilei .con .son{
+	width: 100%;
+	height: 1.45rem;
+	display: flex;
+	justify-content: space-between;
+}
+.feilei .con .son .grandson{
+	width: 1.45rem;
+	height: 1.45rem;
+}
+.feilei .con .son .grandson .box{
+	width: 1.03rem;
+	height: 1.03rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: #ecf41d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.feilei .con .son .grandson .box img{
+	width: 0.67rem;
+	height: 0.67rem;
+}
+.feilei .con .son .grandson span{
+	display: block;
+	width: 100%;
+	height: 0.24rem;
+	margin-top: 0.12rem;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.feilei .con .son .grandson:nth-child(2) .box{
+	background:#f41d45 ;
+}
+.feilei .con .son .grandson:nth-child(3) .box{
+	background:#5c5f9a ;
+}
+.feilei .con .son .grandson:nth-child(4) .box{
+	background:#1df4e1 ;
+}
+.feilei .con .son .grandson:nth-child(5) .box{
+	background:#f4681d;
+}
+.tuijian{
+	width: 100%;
+	height: 5.93rem;
+	border-bottom: 0.29rem solid #cedddc;
+}
+.tuijian .con{
+	width: 7.04rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.tuijian .con .top{
+	width: 100%;
+	height: 0.92rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tuijian .con .top span{
+	display: block;
+	width: 2.33rem;
+	height: 0.31rem;
+	text-align: center;
+	font-size: 0.31rem;
+	color: #5c5c5c;
+}
+.tuijian .con .bottom{
+	width: 100%;
+	height: 4.72rem;
+}
+.tuijian .con .bottom .bottom-con{
+	width: 6.78rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.tuijian .con .bottom .bottom-con .son{
+	width: 3.37rem;
+	height: 4.42rem;
+	position: relative;
+}
+.tuijian .con .bottom .bottom-con .son .tu1{
+	width: 3.37rem;
+	height: 4.42rem;
+}
+.tuijian .con .bottom .bottom-con .son .tu2{
+	width: 2.81rem;
+	height: 3.96rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto auto;
+}
+.cainixihuan{
+	width: 100%;
+	height: 12.93rem;
+	border-bottom: 0.07rem solid #faf9f8;
+}
+.cainixihuan .con{
+	width: 7.04rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.cainixihuan .con .top{
+	width: 100%;
+	height: 0.91rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 0.01rem solid #cccccc;
+}
+.cainixihuan .con .top span{
+	display: block;
+	width: 2.33rem;
+	height: 0.31rem;
+	text-align: center;
+	font-size: 0.31rem;
+	color: #5c5c5c;
+}
+.cainixihuan .con .bottom{
+	width: 100%;
+	height: 11.94rem;
+}
+.cainixihuan .con .bottom .son{
+	width: 100%;
+	height: 1.98rem;
+	border-bottom: 0.01rem solid #ccc;
+	display: flex;
+	align-items: center;
+}
+.cainixihuan .con .bottom .son:nth-child(3),.cainixihuan .con .bottom .son:nth-child(6){
+	border-bottom: 0rem;
+}
+.cainixihuan .con .bottom .son .left{
+	width: 2.22rem;
+	height: 1.52rem;
+	margin-left: 0.14rem;
+}
+.cainixihuan .con .bottom .son .left img{
+	width: 2.22rem;
+	height: 1.53rem;
+}
+.cainixihuan .con .bottom .son .right{
+	width: 5.23rem;
+	height: 1.52rem;
+	margin-left: 0.25rem;
+}
+.cainixihuan .con .bottom .son .right h1{
+	width: 4.66rem;
+	height: 0.38rem;
+	font-size: 0.35rem;
+	line-height: 0.38rem;
+}
+.cainixihuan .con .bottom .son .right h2{
+	width: 4.66rem;
+	height: 0.38rem;
+	font-size: 0.15rem;
+	line-height: 0.38rem;
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+}
+.cainixihuan .con .bottom .son .right h2 .box{
+	width: 1.45rem;
+	height: 0.21rem;
+	margin-left: 0.27rem;
+	display: flex;
+	justify-content: space-between;
+}
+.cainixihuan .con .bottom .son .right h2 .box img{
+	width: 0.21rem;
+	height: 0.21rem;
+}
+.footer{
+	width: 100%;
+	height: 1rem;
+}
+.footer .son{
+	width: 7.04rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer .son img{
+	width: 7.04rem;
+	height: 100%;
+}
