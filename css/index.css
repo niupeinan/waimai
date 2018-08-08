@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    width: 100%;
+    height:auto;
+    background:#cccccc;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.title{
+    width:100%;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    color:red;
+    border: 0.01rem solid #fff;
+}
+a{
+    display: block;
+    width: 100%;
+    height: 1.25rem;
+    text-align: center;
+    border: 0.01rem solid #fff;
+}
+span{
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    color:blue;
+}
